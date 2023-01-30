@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'sunset-gothic-bold-pro';
+    src: url('../../fonts/sunset-gothic-bold-pro.eot');
+    src: url('../../fonts/sunset-gothic-bold-pro.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/sunset-gothic-bold-pro.woff2') format('woff2'),
+         url('../../fonts/sunset-gothic-bold-pro.woff') format('woff'),
+         url('../../fonts/sunset-gothic-bold-pro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-VariableFont_slnt,wght';
+    src: url('../../fonts/static/Inter-Black.ttf');
+    src: url('../../fonts/static/Inter-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'galaxie-copernicus-regular';
+/*    src: url('../../fonts/galaxie-copernicus-regular.eot');*/
+    /*src: url('../../fonts/galaxie-copernicus-regular.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/galaxie-copernicus-regular.woff2') format('woff2'),
+         url('../../fonts/galaxie-copernicus-regular.woff') format('woff'),*/
+    src: url('../../fonts/galaxie-copernicus-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+	margin: 0;
+	padding:0;
+	font-family: 'sunset-gothic-bold-pro';
+	font-size: 18px;
+	line-height: 1.4em;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+	outline: 0;
+	text-decoration: none;
+	font-family: 'sunset-gothic-bold-pro';
+	color: #3C3C3C;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-family: 'galaxie-copernicus-regular';
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+/*-----nav-----*/
+header nav {
+/*	text-align: center;*/
+	background: #efefef;
+}
+header nav ul {
+	margin: 0;
+	padding: 1em;
+	list-style-type: none;
+	padding-right: 0;
+}
+header nav ul li {
+	display: inline;
+/*	margin-left: 1em;*/
+}
+header nav ul li:not(:last-child) {
+	margin-right: 15px;
+}
+header nav ul li:first-child {
+	margin-left: 0;
+}
+header nav ul li ul {
+	display: none;
+}
+.mean-container .mean-bar,
+.mean-container .mean-nav {
+    background: #003A92;
+  }
+  .mean-container .mean-nav ul li a {
+  	text-transform: initial;
+  }
+
+a {
+	color: #f77564;
+}
+a:hover {
+	color: #333;
+}
+a, a:hover {
+	-o-transition: color 0.25s ease-in;
+	-webkit-transition: color 0.25s ease-in;
+	-moz-transition: color 0.25s ease-in;
+	transition: color 0.25s ease-in;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+nav a,
+nav a:hover,
+nav a:focus,
+nava a:visited{
+	font-family: 'inter';
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.bg-maroon {
+	background-color: #8C2531;
+}
+
+header nav ul {
+	display: inline-block;
+}
+
+ul, h2, p
+li {
+	list-style: none;
+	text-decoration: none;
+}
+
+.section {
+	padding: 100px 0;
+}
+.text-cta h1 {
+	color: #003A92;
+	font-size: 52px;
+}
+.bg-maroon .title h3, .bg-maroon h2.heading, .bg-maroon p {
+	color: #fff;
+}
+h2.heading {
+	font-family: 'galaxie-copernicus-regular';
+	color: #3C3C3C;
+}
+.date {
+	color: #74788A;
+}
+.right-col > .news-wrapper-inner > figure{
+  margin-top: -100px;
+}
+.news-wrapper-inner {
+	margin-bottom: 40px;
+	padding: 20px;
+}
+
+.nav-wrap {
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+  }
+
+
+  .btn-wrap{
+  	display: flex;
+  	justify-content: right;
+  	align-items: center;
+  }
+
+  .btn-cta button {
+  	padding: 10px 20px;
+    position: relative;
+    padding-right: 70px;
+    outline: 0;
+    border: 1px solid rgba(0,0,0,0.5);
+    min-width: 131px;
+    color: rgba(0,0,0,0.5);
+    background-color: transparent;
+  }
+
+  span.icon {
+  	position: absolute;
+    height: 100%;
+    top: 0;
+    display: flex;
+    right: 0;
+    align-items: center;
+    min-width: 50px;
+    justify-content: center;
+    border-left: 1px solid rgba(0,0,0,0.5);
+  }
+  .title{
+  	padding-bottom: 40px;
+  	text-transform: uppercase;
+  }
+  .title h3{
+    font-size: 24px;
+    color: #003A92;
+  }
+.news-wrapper p {
+	font-family: 'galaxie-copernicus-regular';
+	font-size: 14px;
+}
+
+footer {
+	background-color: #3C3C3C;
+	color: #fff;
+}
+footer a {
+	color: #fff !important;
+}
+footer ul {
+	display: flex;
+}
+footer ul li:not(:last-child) {
+	margin-right: 20px;
+}
+.footer-nav-wrap,
+.bf-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+footer .logo{
+	display: block;
+	padding-bottom: 70px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #555;
+}
+footer .logo a {
+	display: inline-block;
+}
+
+footer, footer a {
+	font-family: 'Inter';
+	font-weight: normal;
+	font-size: 14px;
+}
+
+
+@media(max-width: 991px) {
+   .logo {
+      position: absolute;
+	    left: 15px;
+	    top: 1rem;
+   }
+}
